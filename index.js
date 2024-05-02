@@ -11,3 +11,9 @@ console.log(vendorName);
 console.log(isOpera);
 console.log(isIEedge);
 console.log(isIOSChrome);
+
+const info = JSON.stringify({ isChromium, winNav, vendorName, isOpera, isIEedge, isIOSChrome }, null, 2);
+
+console.log(info);
+
+document.querySelector("#info").textContent = info;
