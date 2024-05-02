@@ -16,7 +16,7 @@ console.log(usa);
 const userAgent = window.navigator.userAgent;
 const vendor = window.navigator.vendor;
 
-const info = JSON.stringify({ isChromium, winNav, vendorName, isOpera, isIEedge, isIOSChrome, usa, vendor, userAgent }, null, 2);
+const info = JSON.stringify({ isChromium, winNav, vendorName, isOpera, isIEedge, isIOSChrome, usa, vendor, userAgent }, 0, null);
 
 console.log(info);
 
