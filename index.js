@@ -21,3 +21,5 @@ const info = JSON.stringify({ isChromium, winNav, vendorName, isOpera, isIEedge,
 console.log(info);
 
 document.querySelector("#info").textContent = info;
+
+document.querySelector("#info2").textContent = JSON.stringify(window);
